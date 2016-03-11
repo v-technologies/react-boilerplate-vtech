@@ -1,0 +1,9 @@
+/**
+ *
+ */
+
+html {
+	@include typi-base();
+	font-family: $font-sans-serif;
+	background: $color-clouds;
+}

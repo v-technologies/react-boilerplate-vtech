@@ -1,0 +1,27 @@
+/**
+ *
+ */
+
+.repository {
+	margin: vr(4) auto;
+	border: 1px solid $color-concrete;
+	max-width: vr(35);
+	background: $color-white;
+}
+
+.repository-header {
+	padding: vr(1);
+	background: $color-sliver;
+}
+
+.repository-name {
+	margin: 0;
+	color: $color-white;
+	line-height: vr(2);
+	font-size: vr(2);
+}
+
+.repository-description {
+	margin: 0;
+	padding: vr(1);
+}
