@@ -54,23 +54,15 @@ Architecture
 ------------
 
 ```
-- css
-	// styles
-- src
-	- actions
-		// redux actions
-	- api
-		// libs making api calls
-	- components
-		// components and redux containers
-	- messages
-		// i18n messages
-	- reducers
-		// redux reducers
-	- routes
-		// first-class route components
-	- sagas
-		// redux sagas
-- test
-	// tests files following the same structure as 'src'
+├── css               (styles)
+├── dist              (compilation output)
+├── src               (scripts)
+│   ├── actions       (redux actions)
+│   ├── api           (libs making api calls)
+│   ├── components    (components and redux containers)
+│   ├── messages      (i18n messages)
+│   ├── reducers      (redux reducers)
+│   ├── routes        (first-class route components)
+│   └── sagas         (redux sagas)
+└── test              (files following the same structure as src)
 ```
